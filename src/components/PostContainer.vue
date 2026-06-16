@@ -10,9 +10,10 @@ import PostCard from './PostCard.vue';
 
 <style>
 
-.post.container{
-    width: 100%;
+.post-container{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center; /* Horizontal */
+    align-items: center; /*Vertical*/
+    height: 100vh; /*Ocupa toda la pantalla*/
 }
 </style>
